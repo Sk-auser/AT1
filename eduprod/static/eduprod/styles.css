@@ -1,68 +1,80 @@
+/* Reset default browser styles */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #e0e0e0; /* Light gray */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: center;
+    width: center;
+}
+
+.content {
+    padding: 80px;
+    background-color: #fff; /* White */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 100px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .item {
     width: 10em;
   }
 
-  h1, h2 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif; /* Use Arial font */
-    color: #333; /* Dark gray text color */
+h1, h2 {
+    margin-bottom: 100px;
+    color: #a2d3cb; /* Dark green */
+    text-align: center; /* Center the headings */
+    font-size: 32px;
 }
 
-h1 {
-    font-size: 36px; /* Larger font size for h1 */
-}
-
-h2 {
-    font-size: 24px; /* Smaller font size for h2 */
+title {
+    color: white;
+    font-size: 20px;
 }
 
 .question {
-    font-size: 24px; /* Set the font size to 24 pixels */
-    font-weight: bold; /* Make the text bold */
-    color: #2ecc71; /* Set the text color to a green shade */
-    margin-bottom: 20px; /* Add some space below the question */
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow */
-    border-bottom: 2px solid #27ae60; /* Add a green bottom border */
-    padding-bottom: 5px; /* Add some padding below the text */
+    margin: center;
+    margin-block: center;
+    background-color: #388e3c; /* Dark green */
+    color: #fff; /* White text */
+    padding-right: 70px;
+    padding-left: 70px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px; /* Rounded corners */
+    text-align: center; /* Center the question */
+
 }
 
 .answer {
-    font-size: 16px; /* Set the font size to 16 pixels */
-    color: #27ae60; /* Set the text color to a shade of green */
-    margin-top: 10px; /* Add some space above the answer */
-    font-weight: bold; /* Make the text bold */
-    background-color: #e9f7ef; /* Set a light green background color */
-    padding: 10px; /* Add padding to the answer for better readability */
-    border-radius: 5px; /* Add rounded corners to the answer box */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+    background-color: #fff; /* White */
+    padding: 20px;
+    margin: 10px;
+    margin: center;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
-/* Styles for the button */
-.button {
-    display: block;
-    padding: 20px 40px;
+button {
+    display: block; /* Center the button */
+    margin: 0 auto; /* Center the button */
+    padding: 20px 20px;
     font-size: 16px;
     color: #fff;
-    background-color: #3c5734;
+    background-color: #3c5734; /* Blue */
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
-/* Styles for the container */
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-/* Optional: Adjust the background color of the page */
-body {
-    margin: 0;
-    background-color: #f0f0f0; /* Light gray */
-}
-
-
 button:hover {
     background-color: #1f540f; /* Dark green */
 }
+

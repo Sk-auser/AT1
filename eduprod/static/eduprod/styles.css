@@ -1,80 +1,67 @@
-/* Reset default browser styles */
-
+/* Apply Arial font and add padding to the body */
 body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #e0e0e0; /* Light gray */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: center;
-    width: center;
-}
-
-.content {
-    padding: 80px;
-    background-color: #fff; /* White */
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    font-size: 100px;
-    height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.item {
-    width: 10em;
-  }
-
-h1, h2 {
-    margin-bottom: 100px;
-    color: #a2d3cb; /* Dark green */
-    text-align: center; /* Center the headings */
-    font-size: 32px;
-}
-
-title {
-    color: white;
-    font-size: 20px;
+    font-family: Arial, sans-serif;
+    padding: 20px;
 }
 
 .question {
-    margin: center;
-    margin-block: center;
-    background-color: #388e3c; /* Dark green */
-    color: #fff; /* White text */
-    padding-right: 70px;
-    padding-left: 70px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    border-radius: 10px; /* Rounded corners */
-    text-align: center; /* Center the question */
-
+    margin: 20px auto; /* Center the question and answer */
+    font-size: 30px; /* Large font size */
+    max-width: 600px; /* Maximum width */
+    text-align: center; /* Center align the text */
 }
 
-.answer {
-    background-color: #fff; /* White */
+.answer { 
+    margin: 20px auto; /* Center the question and answer */
+    font-size: 24px; /* Large font size */
+    max-width: 600px; /* Maximum width */
+    text-align: center; /* Center align the text */
+    color: forestgreen;
+}
+
+/* Style for the button */
+#revealBtn {
+    display: block; /* Display as block element */
+    margin: 20px auto; /* Center the button */
+    padding: 10px 20px; /* Padding inside the button */
+    font-size: 18px; /* Font size */
+    background-color: #27ae60; /* Green background color */
+    color: white; /* Text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+}
+
+header {
+    font-size: large;
+    color: #27ae60;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 20px;
-    margin: 10px;
-    margin: center;
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    text-align: center;
+
+
 }
 
-button {
-    display: block; /* Center the button */
-    margin: 0 auto; /* Center the button */
-    padding: 20px 20px;
-    font-size: 16px;
-    color: #fff;
-    background-color: #3c5734; /* Blue */
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+p {
+    padding: 5px;
+    color: black;
+    display: block;
+    padding: 10px;
+    background-color: #a4d4b8;
+    line-height: 1.5;
 }
 
-button:hover {
-    background-color: #1f540f; /* Dark green */
+
+.logo {
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    float: left; /* Float the logo to the left */
+    margin-right: 20px;
 }
 
+.coco {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    height: 100vh; /* Set container height to full viewport height */
+    font-size: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

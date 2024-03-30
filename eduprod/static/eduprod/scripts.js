@@ -8,12 +8,15 @@ document.addEventListener("DOMContentLoaded", function() {
         if (currentQuestionIndex < questions.length) {
             const question = questions[currentQuestionIndex].fields.question_text;
             const answer = questions[currentQuestionIndex].fields.answer_text;
-            content.innerHTML = `<div class='question'>Question: ${question}</div><div class='answer' style='display: none;'>Answer: ${answer}</div>`;
+            content.innerHTML = `<div class='question'>Country: ${question}</div><div class='answer' style='display: none;'>Capital City: ${answer}</div>`;
             btn.textContent = "Reveal Answer";
+            noQuestionsMessage.style.display = "none";
         } else {
-            content.innerHTML = "No more questions.";
+            content.innerHTML = ""; // Clear content
             btn.style.display = "none";
+            noQuestionsMessage.style.display = "block"; // Display no more questions message
         }
+    
     }
 
     displayQuestion();
@@ -28,4 +31,5 @@ document.addEventListener("DOMContentLoaded", function() {
             displayQuestion();
         }
     });
-});
+
+}); // This is the missing closing curly brace

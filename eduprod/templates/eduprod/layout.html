@@ -7,25 +7,17 @@
     <script src="{% static 'eduprod/scripts.js' %}" defer></script>
 </head>
 <body>
-    {% block body %}
-    {% endblock %}
-</body>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Around the World in Capital Cities</title>
-    <link href="{% static 'eduprod/styles.css' %}" rel="stylesheet">
-</head>
-<body>
-    <div class="container" id="questionsContainer">
-        <!-- Questions will be dynamically inserted here -->
+    <header>
+        <img src="{% static 'eduprod/logo.jpeg' %}" alt="Logo" class="logo">
+        <h1>Around the World in Capital Cities</h1>
+    </header>
+    <header>
+        <p>A country is displayed. You need to guess the right capital city to each country. Tap the button below to reveal your answer. When you're finished, just reload the page! Good Luck!</p>
+    </header>
+    <div class="coco">
+    <div id="noQuestionsMessage" style="display: none;">Quiz finished. Great Work!</div>
+        {% block body %}
+        {% endblock %}
     </div>
-    <script src="{% static 'eduprod/scripts.js' %}" defer></script>
 </body>
 </html>
-
-
-

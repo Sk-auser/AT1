@@ -15,9 +15,11 @@
         <p>A country is displayed. You need to guess the right capital city to each country. Tap the button below to reveal your answer. When you're finished, just reload the page! Good Luck!</p>
     </header>
     <div class="coco">
-    <div id="noQuestionsMessage" style="display: none;">Quiz finished. Great Work!</div>
+    <div id="noQuestionsMessage" style="display: none;">Quiz finished. Great  Work!</div>
+    <img src="{% static 'eduprod/despicable-me-minions.gif' %}" alt="Great Work GIF" id="gwGif" style="display: none;">
         {% block body %}
         {% endblock %}
     </div>
 </body>
 </html>
+

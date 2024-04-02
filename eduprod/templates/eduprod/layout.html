@@ -2,25 +2,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Around the World in Capital Cities</title>
+    <title>Around the World in Capital Cities</title> <!--title of web page n links to css + js-->
     <link href="{% static 'eduprod/styles.css' %}" rel="stylesheet">
     <script src="{% static 'eduprod/scripts.js' %}" defer></script>
 </head>
 <body>
     <header>
-        <img src="{% static 'eduprod/logo.jpeg' %}" alt="Logo" class="logo">
-        <h1>Around the World in Capital Cities</h1>
+        <img src="{% static 'eduprod/logo.jpeg' %}" alt="Logo" class="logo"> 
+        <h1>Around the World in Capital Cities</h1> <!--heading that displays on the page-->
     </header>
-    <header>
+    <header> <!-- instructions content-->
         <p>A country is displayed. You need to guess the right capital city to each country. Tap the button below to reveal your answer. When you're finished, just reload the page! Good Luck!</p>
     </header>
-    <div class="coco">
+    <div class="coco"> <!--message when 7 questions have run through-->
     <div id="noQuestionsMessage" style="display: none;">Quiz finished. Great  Work!</div>
     <img src="{% static 'eduprod/despicable-me-minions.gif' %}" alt="Great Work GIF" id="gwGif" style="display: none;">
         {% block body %}
         {% endblock %}
     </div>
-    <footer>
+    <footer> <!--footnote-->
         <p id="footnote1"> © Around the World in Capital Cities by S.K</p>
     </footer>
 </body>

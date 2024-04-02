@@ -1,21 +1,20 @@
-/* Apply Arial font and add padding to the body */
 body {
     font-family: Arial, sans-serif;
     padding: 20px;
 }
 
 .question {
-    margin: 20px auto; /* Center the question and answer */
-    font-size: 30px; /* Large font size */
-    max-width: 600px; /* Maximum width */
-    text-align: center; /* Center align the text */
+    margin: 20px auto; 
+    font-size: 30px; 
+    max-width: 600px; 
+    text-align: center; 
 }
 
 .answer { 
-    margin: 20px auto; /* Center the question and answer */
-    font-size: 24px; /* Large font size */
-    max-width: 600px; /* Maximum width */
-    text-align: center; /* Center align the text */
+    margin: 20px auto; 
+    font-size: 24px; 
+    max-width: 600px; 
+    text-align: center; 
     color: forestgreen;
 }
 
@@ -23,13 +22,13 @@ body {
 #revealBtn {
     display: block; /* Display as block element */
     margin: 20px auto; /* Center the button */
-    padding: 10px 20px; /* Padding inside the button */
-    font-size: 18px; /* Font size */
-    background-color: #27ae60; /* Green background color */
-    color: white; /* Text color */
-    border: none; /* No border */
-    border-radius: 5px; /* Rounded corners */
-    cursor: pointer; /* Cursor style */
+    padding: 10px 20px; 
+    font-size: 18px; 
+    background-color: #27ae60; 
+    color: white; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
 }
 
 header {
@@ -37,19 +36,17 @@ header {
     color: #27ae60;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 20px;
-
-
 }
 
+ /* Instructions */
 p {
-    padding: 5px;
     color: black;
     display: block;
     padding: 10px;
     background-color: #a4d4b8;
     line-height: 1.5;
-}
 
+}
 
 .logo {
     width: 100px; /* Adjust the width as needed */
@@ -58,6 +55,7 @@ p {
     margin-right: 20px;
 }
 
+/* Container */
 .coco {
     display: flex;
     flex-direction: column;
@@ -73,14 +71,14 @@ p {
     margin-top: 20px; /* Add some space above the message */
     margin-bottom: 20px; /* Add some space below the message */
     text-align: center; /* Center align the message */
-    display: block; /* Ensure the message is displayed as a block element */
+    display: block; 
 
 }
 
 /* Style the GIF */
 .gwGif {
-    display: block; /* Ensure the GIF is displayed as a block element */
-    margin-bottom: 20px; /* Add some space between the message and the GIF */
-    width: 200px; /* Adjust the width of the GIF */
-    height: auto; /* Maintain aspect ratio */
+    display: block; 
+    margin-bottom: 20px; 
+    width: 200px; 
+    height: auto; 
 }
